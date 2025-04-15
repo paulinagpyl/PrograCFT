@@ -13,7 +13,7 @@ else:
 if noche >80:
     pago_noche=80*7
     noche=noche-80
-    pago_noche=pago_noche+noche*13
+    pago_noche += noche*13
     print(f"NOCHE: excede en {noche} minutos")
 else:
     pago_noche=noche*7
