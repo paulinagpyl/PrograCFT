@@ -1,5 +1,6 @@
 dia=int(input("Ingrese min día: "))
 noche=int(input("Ingrese min noche: "))
+# minutos llamadas día
 if dia >100:
     pago_dia=100*10
     dia=dia-100
@@ -8,6 +9,7 @@ if dia >100:
 else:
     pago_dia=dia*10
 
+# minutos llamadas noche
 if noche >80:
     pago_noche=80*7
     noche=noche-80
